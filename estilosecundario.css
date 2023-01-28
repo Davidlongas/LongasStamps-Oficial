@@ -1,22 +1,12 @@
-@font-face {
-    font-family: Montserrat;
-    src: url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/Montserrat-Bold.ttf);
-}
-@font-face {
-    font-family: Lora;
-    src: url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/Lora-Bold.ttf),
-    url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/Lora-BoldItalic.ttf),
-    url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/Lora-Italic.ttf);
-}
-@font-face {
-    font-family: HindMadurai;
-    src:
-    url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/HindMadurai-Light.ttf),
-    url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/HindMadurai-Medium.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+
 .encabezado {
     display: flex;
-    font-family: HindMadurai;
+    font-family: 'Hind Madurai', sans-serif;
     background-color: white;
     margin-bottom: 20px;
 }
@@ -62,12 +52,12 @@ transition: .5s;
     width: 100%;
 }
 h1 {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 70px;
     color: white;
 }
 p {
-    font-family: Lora-italic;
+    font-family: 'Lora', serif;
     font-size: 28px;
     color: rgb(54, 57, 59);
     display: flex;

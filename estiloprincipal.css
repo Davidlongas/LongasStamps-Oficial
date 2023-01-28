@@ -1,36 +1,26 @@
-@font-face {
-    font-family: Montserrat;
-    src: url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/Montserrat-Bold.ttf);
-}
-@font-face {
-  font-family: Lora;
-  src: url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/Lora-Bold.ttf),
-  url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/Lora-BoldItalic.ttf),
-  url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/Lora-Italic.ttf);
-}
-@font-face {
-  font-family: HindMadurai;
-  src:
-  url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/HindMadurai-Light.ttf),
-  url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/HindMadurai-Medium.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+
 h1 {
-    font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
     color: rgb(5, 42, 127);
     font-size: 42px;
 }
 h3 {
-    font-family: Lora;
+  font-family: 'Lora', serif;
     font-size: 30px;
     color: rgb(54, 57, 59);
 }
 p {
-    font-family: HindMadurai;
+  font-family: 'Hind Madurai', sans-serif;
     font-weight: 700;
 }
 
 .encabezado {
-    font-family: HindMadurai;
+  font-family: 'Hind Madurai', sans-serif;
     background-color: white;
     display: flex;
 }
@@ -101,7 +91,7 @@ transition: .5s;
     margin: 15px;
     padding: 12px 24px;
     text-align: center;
-    font-family: HindMadurai;
+    font-family: 'Hind Madurai', sans-serif;
     font-size: 22px;
     letter-spacing: 1px;
     text-decoration: none;
@@ -127,7 +117,7 @@ transition: .5s;
     text-align: center;
   }
   .contenido-secundario {
-    background-image: url(/Imagenes/Patron-azul-y-gris-20.png);
+    background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps-Oficial/main/Imagenes/Patron-azul-y-gris-20.png);
     
   }
   .contenido-secundario, .flip-card-inner, .tarjeta {
@@ -141,7 +131,7 @@ transition: .5s;
     font-weight: 900;
     text-align: center;
     margin: 0;
-    font-family: lora;
+    font-family: 'Lora', serif;
     color: rgb(5, 42, 127)
   }
   
