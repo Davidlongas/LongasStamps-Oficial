@@ -1,6 +1,6 @@
 @font-face {
     font-family: Montserrat;
-    src: url(/Fuente/Montserrat-Bold.ttf);
+    src: url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/Montserrat-Bold.ttf);
 }
 @font-face {
     font-family: Lora;
@@ -34,7 +34,7 @@ p {
     display: flex;
 }
 .contenido-principal,  .contenido-tercero {
-    background-image: url(/Imagenes/Patron-azul-y-gris-20.png);
+    background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps-Oficial/main/Imagenes/Patron-azul-y-gris-20.png);
     
     padding: 10px;
     width: 100%;
