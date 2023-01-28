@@ -90,7 +90,7 @@ p {
 .presentacion {
 display: grid;
 padding-top: 100px;
-background-image: url(/Imagenes/Patron-azul-y-gris-20.png);
+background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps-Oficial/main/Imagenes/Patron-azul-y-gris-20.png);
 }
 .actividad1 {
     grid-area: izquierda;
