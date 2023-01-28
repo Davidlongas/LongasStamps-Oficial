@@ -3,15 +3,16 @@
     src: url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/Montserrat-Bold.ttf);
 }
 @font-face {
-    font-family: Lora;
-    src: url(/Fuente/Lora-Bold.ttf), url(/Fuente/Lora-BoldItalic.ttf),
-    url(/Fuente/Lora-Italic.ttf);
+  font-family: Lora;
+  src: url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/Lora-Bold.ttf),
+  url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/Lora-BoldItalic.ttf),
+  url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/Lora-Italic.ttf);
 }
 @font-face {
-    font-family: HindMadurai;
-    src:
-    url(/Fuente/HindMadurai-Light.ttf),
-    url(/Fuente/HindMadurai-Medium.ttf);
+  font-family: HindMadurai;
+  src:
+  url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/HindMadurai-Light.ttf),
+  url(https://github.com/Davidlongas/LongasStamps-Oficial/blob/main/Fuente/HindMadurai-Medium.ttf);
 }
 h1 {
     font-family: Montserrat;
