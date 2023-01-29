@@ -101,3 +101,20 @@ background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps
     border-radius: 1rem;
 }
 
+@media screen and (max-width: 800px) {
+    .encabezado {
+        display: flex;
+    }
+    .imagen-fondo {
+        display: block;
+    }
+    .presentacion {
+        display: block;
+        
+    }
+    .actividad1 img {
+        width: 100%;
+    }
+    .actividad2 img {
+        width: 100%;
+    }
