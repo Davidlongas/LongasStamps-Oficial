@@ -112,6 +112,9 @@ background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps
         display: block;
         
     }
+    .descripcion {
+        padding: 0 10px 0 10px;
+    }
     .actividad1 img {
         width: 100%;
     }
