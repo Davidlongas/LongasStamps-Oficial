@@ -100,6 +100,33 @@ background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps
 .actividad2 img {
     border-radius: 1rem;
 }
+.contacto {
+    display: flex;
+    background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps-Oficial/main/Imagenes/Patron-azul-y-gris-20.png);
+    padding: 100px;
+}
+.qr {
+    padding: 0 50px 50px 50px;
+    
+}
+.escanea {
+    font-family: 'Hind Mudarai', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.medio {
+    font-family: 'Hind Mudarai', sans-serif;
+    top: 300px;
+    text-align: center;
+    font-size: x-large;
+}
+.titulo {
+    
+    color: rgb(5, 42, 127);
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+}
 
 @media screen and (max-width: 800px) {
     .encabezado {
