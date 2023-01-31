@@ -68,6 +68,7 @@ p {
 .imagen-fondo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://raw.githubusercontent.com/Davidlongas/LongasStamps-Oficial/main/Imagenes/Serigrafia.jpg);
     width: auto;
+    max-width: 1200px;
     height: 400px;
     background-position: center;
     padding-top: 100px;
@@ -78,6 +79,8 @@ p {
    
 }
 .presentacion {
+    width: 90%;
+    max-width: 1200px;
 display: grid;
 padding-top: 100px;
 background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps-Oficial/main/Imagenes/Patron-azul-y-gris-20.png);
@@ -88,7 +91,7 @@ background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps
 }
 .descripcion {
     grid-area: medio;
-    padding: 0 100px 0px 100px;
+    padding: 0 50px 0px 50px;
 }
 .actividad2 {
     grid-area: derecha;
@@ -101,9 +104,11 @@ background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps
     border-radius: 1rem;
 }
 .contacto {
+    width: 90%;
+    max-width: 1200px;
     display: flex;
     background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps-Oficial/main/Imagenes/Patron-azul-y-gris-20.png);
-    padding: 100px;
+    
 }
 .qr {
     padding: 0 50px 50px 50px;
@@ -119,13 +124,15 @@ background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps
     top: 300px;
     text-align: center;
     font-size: x-large;
+    padding: 0px 100px 0px 100px;
 }
 .titulo {
-    
+    max-width: 1200px;
+    width: 90%;
     color: rgb(5, 42, 127);
     font-size: 40px;
     text-align: center;
-    margin: 30px;
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -139,6 +146,21 @@ background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps
         display: block;
         
     }
+    .contacto {
+        display: block;
+        padding: 0px;
+        width: 100%;
+        
+    }
+    .qr{
+        display: block;
+        padding: 0px;
+       
+    }
+    .titulo {
+        font-size: 40px;
+        margin-left: 10px;
+    }
     .descripcion {
         padding: 0 10px 0 10px;
     }
@@ -148,3 +170,14 @@ background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps
     .actividad2 img {
         width: 100%;
     }
+    .qr-img img {
+        width: 300px;
+        height: 300px;
+        margin-left: 200px;
+    }
+   .medio {
+    font-size: xx-large;
+   }
+   .escanea {
+    padding: 0px 10px 0px 10px;
+   }
