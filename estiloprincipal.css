@@ -28,7 +28,8 @@ p {
     background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps-Oficial/main/Imagenes/Patron-azul-y-gris-20.png);
     
     padding: 10px;
-    width: 100%;
+    width: 90%;
+    max-width: 1200px;
     
 }
 nav {
@@ -118,7 +119,8 @@ transition: .5s;
   }
   .contenido-secundario {
     background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps-Oficial/main/Imagenes/Patron-azul-y-gris-20.png);
-    
+    width: 90%;
+    max-width: 1200px;
   }
   .contenido-secundario, .flip-card-inner, .tarjeta {
     display: flex;
