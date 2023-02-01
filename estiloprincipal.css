@@ -221,7 +221,10 @@ align-items: center;
   display: block;
   width: 100%;
   }
- img {
+ .stamp-planchando img {
+  width: 300px;
+ }
+ .imagen-chat img {
   width: 300px;
  }
 }
