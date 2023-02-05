@@ -11,8 +11,9 @@ h1 {
 }
 h3 {
   font-family: 'Lora', serif;
-    font-size: 30px;
+    font-size: 22px;
     color: rgb(54, 57, 59);
+
 }
 p {
   font-family: 'Hind Madurai', sans-serif;
@@ -79,7 +80,7 @@ transition: .5s;
     display: flex;
 }
 .eslogan {
-    padding: 10px;
+    padding: 25px;
     padding-top: 10px;
     padding-right: 50px;
     position: relative;
@@ -112,6 +113,33 @@ transition: .5s;
   
   .wbutton:active {
     transform: scale(0.9);
+  }
+  .ibutton {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 24px;
+    text-align: center;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #5B51D8;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 1s;
+    border: 2px solid #5B51D8;
+    border-radius: 10px;
+    
+  }
+  
+  .ibutton:hover {
+    color: white;
+    background-image: linear-gradient(to bottom left, #405de6, #833ab4, #e1306c, #f56040, #fcaf45);
+  }
+  
+  .ibutton:active {
+    transform: scale(1);
   }
   .comodin {
     width: 100%;
@@ -200,6 +228,9 @@ align-items: center;
 .conexion-whatsapp {
   text-align: center;
   padding: 5%;
+}
+.ultimah3 {
+  font-size: 30px;
 }
 @media screen and (max-width: 800px) {
   
