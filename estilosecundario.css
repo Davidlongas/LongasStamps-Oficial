@@ -165,6 +165,7 @@ background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps
     .titulo {
         font-size: 40px;
         margin-left: 10px;
+        margin-top: 0px;
     }
     .descripcion {
         padding: 0 10px 0 10px;
@@ -187,5 +188,7 @@ background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps
     padding: 0px 10px 0px 10px;
    }
    .modelo3d {
-    object-fit: cover;
+    height: 0%;
+    width: 0%;
+    
    }
