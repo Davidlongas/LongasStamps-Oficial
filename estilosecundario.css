@@ -103,6 +103,11 @@ background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps
 .actividad2 img {
     border-radius: 1rem;
 }
+.modelo3d {
+    height: 500px;
+    width: 90%;
+    max-width: 1200px;
+}
 .contacto {
     width: 90%;
     max-width: 1200px;
@@ -180,4 +185,7 @@ background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps
    }
    .escanea {
     padding: 0px 10px 0px 10px;
+   }
+   .modelo3d {
+    object-fit: cover;
    }
