@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 72px;
+   line-height: 20px;
+   /*rgb(5, 42, 127)*/
+}
+h3 {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: rgb(5, 42, 127);
+    
+}
+p {
+  font-family: 'Hind Madurai', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(54, 57, 59);
+}
+body {
+    width: 90%;
+    max-width: 1200px;
+    
+}
+.encabezado {
+    font-family: 'Hind Madurai', sans-serif;
+      background-color: white;
+      display: flex;
+      margin-bottom: 20px;
+  }
+  nav {
+    padding-top: 19px;
+    width: 70vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: auto;
+
+}
+.menu {
+    position: relative;
+    text-decoration: none;
+    color: rgb(54, 57, 59);
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.menu:before,
+.menu:after {
+content: "";
+position: absolute;
+height: 3px;
+width: 0;
+background: rgb(5, 172, 255);
+transition: .5s;
+}
+.menu:after {
+    left: 0;
+    bottom: -10px;
+
+}
+.menu:before {
+    right: 0;
+    top: -10px;
+
+}
+.menu:hover:after,
+.menu:hover:before {
+    width: 100%;
+}
+.imagen-fondo {
+    background-image: url(/Imagenes/Libro-en-mesa.jpg);
+    background-size: cover;
+    width: 100%;
+    max-width: 1200px;
+    height: 280px;
+    background-position: center;
+    padding-top: 10px;
+    padding-left: 10px;
+   
+}
+.desarrollo {
+    display: flex;
+    background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps-Oficial/main/Imagenes/Patron-azul-y-gris-20.png);
+}
+#principal {
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    padding: 50px;
+}
+aside {
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    padding: 10px;
+}
+hr {
+    background-color: rgb(5, 172, 255);
+    height: 2px;
+}
+a {
+    text-decoration: none;
+}
+footer {
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.articulos p {
+    padding-left: 20px;
+}
+.sobre-autor p {
+    text-align: justify;
+}
+.sobre-autor h3 {
+    text-align: center;
+}
+.btw:link,
+.btw:visited {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: #075E54;
+ padding: 10px 30px;
+ border: 1px solid;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+ font-family: 'Hind Madurai', sans-serif;
+}
+
+.btw:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+}
+
+.btw:active {
+ transform: translateY(-3px);
+}
+
+.btw::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ top: 0;
+ left: 0;
+ position: absolute;
+ z-index: -1;
+ transition: all .3s;
+}
+
+.btw:hover::after {
+ background-color: #65faa3;
+ transform: scaleX(1.4) scaleY(1.5);
+ opacity: 0;
+}
+.bti:link,
+.bti:visited {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: #5B51D8;
+ padding: 10px 30px;
+ border: 1px solid;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+ font-family: 'Hind Madurai', sans-serif;
+ margin-bottom: 20px;
+}
+
+.bti:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+}
+
+.bti:active {
+ transform: translateY(-3px);
+}
+
+.bti::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ top: 0;
+ left: 0;
+ position: absolute;
+ z-index: -1;
+ transition: all .3s;
+}
+
+.bti:hover::after {
+ background-color: #4b3eff;
+ transform: scaleX(1.4) scaleY(1.5);
+ opacity: 0;
+}
