@@ -248,6 +248,9 @@ align-items: center;
     width: 100%;
     align-items: center;
   }
+  .tarjeta {
+    width: 80%;
+  }
   .contenido-tercero {
   display: block;
   width: 100%;
