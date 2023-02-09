@@ -76,7 +76,7 @@ p {
     background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps-Oficial/main/Imagenes/Patron-azul-y-gris-20.png);
 }
 .imagen-tipo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/Ropa-subli.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/regalo.jpg);
     background-size: cover;
     width: auto;
     max-width: 1200px;
