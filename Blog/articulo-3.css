@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
 
+p::selection {
+    color: black;
+    background-color: rgb(5, 172, 255);
+}
 .encabezado {
     display: flex;
     margin-bottom: 20px;

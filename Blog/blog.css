@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
 
+p::selection {
+    color: black;
+    background-color: rgb(5, 172, 255);
+}
 h1 {
   font-family: 'Montserrat', sans-serif;
     color: white;
