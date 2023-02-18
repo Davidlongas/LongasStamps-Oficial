@@ -250,6 +250,7 @@ align-items: center;
   }
   .tarjeta {
     width: 80%;
+    margin: 0px;
   }
   .contenido-tercero {
   display: block;
