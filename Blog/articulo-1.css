@@ -219,3 +219,7 @@ footer {
  transform: scaleX(1.4) scaleY(1.5);
  opacity: 0;
 }
+.comentarios {
+    text-align: center;
+    padding-top: 20px;
+}
