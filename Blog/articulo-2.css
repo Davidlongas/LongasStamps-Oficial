@@ -263,5 +263,37 @@ footer {
     text-align: center;
     padding-top: 20px;
 }
+
+.facebook {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.comentarios {
+    text-align: center;
+    padding-top: 20px;
+}
+.compartir {
+    width: 100px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 35px;
+    border-radius: 5px;
+    border: 2.5px solid #E0E1E4;
+    box-shadow: 0px 0px 20px -20px;
+    cursor: pointer;
+    background-color: #dfe9fd;
+    transition: all 0.2s ease-in-out 0ms;
+    user-select: none;
+}
+  .compartir:hover {
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 20px -18px;
+    border: 2.5px solid #3C5999;
+
+  }
+  
+  .compartir:active {
+    transform: scale(0.95);
+  }
    
    
