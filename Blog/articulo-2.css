@@ -259,5 +259,9 @@ footer {
    .btn:active {
     background-color: #87dbd0;
    }
+   .comentarios {
+    text-align: center;
+    padding-top: 20px;
+}
    
    
