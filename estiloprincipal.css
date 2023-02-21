@@ -237,7 +237,7 @@ align-items: center;
   .contenido-principal {
     display: block;
   }
-  .eslogan, .stamp-planchando .encabezado {
+  .eslogan, .stamp-planchando, .encabezado {
     width: 100%;
   }
   .stamp-planchando {
@@ -248,12 +248,7 @@ align-items: center;
     width: 100%;
     align-items: center;
   }
-  .tarjeta {
-    width: 70%;
-    margin: 0px;
-    margin-bottom: 20px;
-    height: 70%;
-  }
+
   .contenido-tercero {
   display: block;
   width: 100%;
@@ -265,7 +260,4 @@ align-items: center;
   width: 300px;
  }
 }
-.flip-card-back img {
-  width: 65%;
-  height: 65%;
-}
+
