@@ -249,8 +249,10 @@ align-items: center;
     align-items: center;
   }
   .tarjeta {
-    width: 80%;
+    width: 70%;
     margin: 0px;
+    margin-bottom: 20px;
+    height: 70%;
   }
   .contenido-tercero {
   display: block;
@@ -262,4 +264,8 @@ align-items: center;
  .imagen-chat img {
   width: 300px;
  }
+}
+.flip-card-back img {
+  width: 65%;
+  height: 65%;
 }
