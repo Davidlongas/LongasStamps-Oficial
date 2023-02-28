@@ -55,7 +55,7 @@ transition: .5s;
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
+    font-size: 60px;
     color: white;
 }
 h3 {
@@ -80,7 +80,7 @@ p {
     background-image: url(https://raw.githubusercontent.com/Davidlongas/LongasStamps-Oficial/main/Imagenes/Patron-azul-y-gris-20.png);
 }
 .imagen-tipo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/Hielo-seco.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://burst.shopifycdn.com/photos/gift-wrapped-with-bow.jpg?width=925&format=pjpg&exif=1&iptc=1);
     background-size: cover;
     width: auto;
     max-width: 1200px;
@@ -110,18 +110,7 @@ aside {
 .imagen-articulo {
     text-align: center;
 }
-.frase-clave {
-   height: 100px;
-   padding-left: 30px;
-   padding-right: 30px;
-   padding-top: 1px;
-   margin-bottom: 20px;
-   
-}
-hr {
-    background-color: rgb(5, 172, 255);
-    height: 2px;
-}
+
 .division {
     height: 20px;
 }
@@ -148,6 +137,7 @@ footer {
  transition: all .2s;
  position: relative;
  font-family: 'Hind Madurai', sans-serif;
+ margin-bottom: 20px;
 }
 
 .btw:hover {
